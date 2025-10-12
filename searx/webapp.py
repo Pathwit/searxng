@@ -1255,7 +1255,7 @@ def favicon():
     theme = sxng_request.preferences.get_value("theme")
     return send_from_directory(
         os.path.join(app.root_path, settings['ui']['static_path'], 'themes', theme, 'img'),  # type: ignore
-        'favicon.png',
+        'favicon.ico',
         mimetype='image/vnd.microsoft.icon',
     )
 
