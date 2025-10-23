@@ -167,6 +167,11 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+#. BRAND_CUSTOM_LINKS['TERMS_OF_SERVICE']
+#: searx/searxng.msg
+msgid "Terms of Service"
+msgstr ""
+
 #. WEATHER_TERMS['AVERAGE TEMP.']
 #: searx/searxng.msg
 msgid "Average temp."

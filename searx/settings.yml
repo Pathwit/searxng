@@ -4,12 +4,12 @@ general:
   # displayed name
   instance_name: "Pathwit Search"
   # For example: https://example.com/privacy
-  privacypolicy_url: false
+  privacypolicy_url: https://www.pathwit.com/legals/privacy-policy.html
   # use true to use your own donation page written in searx/info/en/donate.md
   # use false to disable the donation link
   donation_url: false
   # mailto:contact@example.com
-  contact_url: false
+  contact_url: mailto:contact@pathwit.com
   # record stats
   enable_metrics: true
   # expose stats in open metrics format at /metrics
@@ -23,11 +23,10 @@ brand:
   public_instances: https://searx.space
   wiki_url: https://github.com/searxng/searxng/wiki
   issue_url: https://github.com/searxng/searxng/issues
-  # custom:
-  #   # Custom entries in the footer: [title]: [link]
-  #   links:
-  #     Uptime: https://uptime.searxng.org/history/darmarit-org
-  #     About: "https://searxng.org"
+  custom:
+    # Custom entries in the footer: [title]: [link]
+    links:
+      Terms of Service: "https://www.pathwit.com/legals/terms-of-service.html"
 
 search:
   # Filter results. 0: None, 1: Moderate, 2: Strict
@@ -76,6 +75,7 @@ search:
   # formats: [html, csv, json, rss]
   formats:
     - html
+    - json
 
 server:
   # Is overwritten by ${SEARXNG_PORT} and ${SEARXNG_BIND_ADDRESS}

@@ -65,6 +65,7 @@ STYLE_NAMES = {
 BRAND_CUSTOM_LINKS = {
     'UPTIME': 'Uptime',
     'ABOUT': 'About',
+    'TERMS_OF_SERVICE': 'Terms of Service',
 }
 
 WEATHER_TERMS = {

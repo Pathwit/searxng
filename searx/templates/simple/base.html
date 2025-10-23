@@ -23,8 +23,8 @@
   {% block head %}
   <link title="{{ instance_name }}" type="application/opensearchdescription+xml" rel="search" href="{{ opensearch_url }}">
   {% endblock %}
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico?v={{ searx_version }}" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico?v={{ searx_version }}" type="image/x-icon">
   <style>
     /* Logo invert to white in dark mode */
     html.theme-dark .logo-img,
